@@ -21,61 +21,11 @@
 
 
   <!--Navbar Starts-->
-  <div class="container-fluid slim-header">
-    <div class="row p-1 px-5">
-      <div class="col-md-6">
-        <span><i class="fas fa-envelope me-2"></i>geetasryasevasansthaan@gmail.com</span> | <span><i class="fas fa-phone me-2"></i>+91 7388102141</span>
-      </div>
-      <div class="col-md-6 text-md-end">
-        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
-      </div>
-    </div>
-  </div>
+  <?php
 
-  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.php">
-        <img src="/Assets/logo.png" alt="Logo" width="90px" style="filter:drop-shadow(0 0 10px white)">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active text-white fw-bold" aria-current="page" href="home.php">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="about.php">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="management.php">Management Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="gallery.php">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="donation.php">Donation</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="alldonors.php">All Donors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="events.php">Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="contacts.php">Contacts</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn btn-warning text-white fw-bold ms-5" href="login.php">Login</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  include("navbar.php");
+
+  ?>
 
   <!--Navbar Ends-->
 
@@ -86,9 +36,9 @@
         <!-- Swiper -->
         <div class="swiper-container">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="/Assets/header.jpg" class="rounded shadow" alt=""></div>
-            <div class="swiper-slide"><img src="/Assets/header.jpg" class="rounded shadow" alt=""></div>
-            <div class="swiper-slide"><img src="/Assets/header.jpg" class="rounded shadow" alt=""></div>
+            <div class="swiper-slide"><img src="Assets/header.jpg" class="rounded shadow" alt=""></div>
+            <div class="swiper-slide"><img src="Assets/header.jpg" class="rounded shadow" alt=""></div>
+            <div class="swiper-slide"><img src="Assets/header.jpg" class="rounded shadow" alt=""></div>
             <!-- Add more slides as needed -->
           </div>
         </div>
@@ -150,7 +100,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <img src="/Assets/header.jpg" alt="" width="550px">
+          <img src="Assets/header.jpg" alt="" width="550px">
         </div>
         <div class="col-md-6">
           <h2 class="mb-3 text-primary">--About Us--</h2>
@@ -158,7 +108,7 @@
 
           <div class="row president">
             <div class="col-md-4">
-              <img src="/Assets/president.jpg" class="rounded-circle shadow" alt="" width="100%">
+              <img src="Assets/president.jpg" class="rounded-circle shadow" alt="" width="100%">
             </div>
             <div class="col-md-8">
               <h5 class="text-primary">Our Leadership</h5>
@@ -306,7 +256,7 @@
       <!-- Project 1 -->
       <div class="col-md-4 mb-4">
         <div class="project-card">
-          <img src="/Assets/posh awaerness.jpeg" alt="POCSO Awareness Program">
+          <img src="Assets/posh awaerness.jpeg" alt="POCSO Awareness Program">
           <h5 class="text-warning">POCSO Awareness Program</h5>
           <p>Committed to ensuring every child's rights under the POCSO Act are upheld and perpetrators are brought to justice.</p>
         </div>
@@ -314,7 +264,7 @@
       <!-- Project 2 -->
       <div class="col-md-4 mb-4">
         <div class="project-card">
-          <img src="/Assets/carrer guidenec.jpg" alt="Career Guidance">
+          <img src="Assets/carrer guidenec.jpg" alt="Career Guidance">
           <h5 class="text-warning">Career Guidance</h5>
           <p>Through personalized counseling and workshops, we help participants explore their interests, strengths, and career options.</p>
         </div>
@@ -322,7 +272,7 @@
       <!-- Project 3 -->
       <div class="col-md-4 mb-4">
         <div class="project-card">
-          <img src="/Assets/martial_arts_training_program_for_girls.jpg" alt="Women Empowerment">
+          <img src="Assets/martial_arts_training_program_for_girls.jpg" alt="Women Empowerment">
           <h5 class="text-warning">Women Empowerment</h5>
           <p>Empowering women through martial arts to instill confidence and a sense of empowerment.</p>
         </div>
@@ -330,7 +280,7 @@
       <!-- Project 4 -->
       <div class="col-md-4 mb-4">
         <div class="project-card">
-          <img src="/Assets/skill development.jpeg" alt="Skill Development">
+          <img src="Assets/skill development.jpeg" alt="Skill Development">
           <h5 class="text-warning">Skill Development</h5>
           <p>Equipping marginalized communities with practical skills and knowledge to foster employability.</p>
         </div>
@@ -338,7 +288,7 @@
       <!-- Project 5 -->
       <div class="col-md-4 mb-4">
         <div class="project-card">
-          <img src="/Assets/cyber.png" alt="Cyber Security Training">
+          <img src="Assets/cyber.png" alt="Cyber Security Training">
           <h5 class="text-warning">Cyber Security Training</h5>
           <p>Protecting our communities by educating them about safeguarding against online threats.</p>
         </div>
@@ -346,7 +296,7 @@
       <!-- Project 6 -->
       <div class="col-md-4 mb-4">
         <div class="project-card">
-          <img src="/Assets/helporphan.png" alt="Help Orphan Children">
+          <img src="Assets/helporphan.png" alt="Help Orphan Children">
           <h5 class="text-warning">Help Orphan Children</h5>
           <p>Empowering orphaned children with hope and opportunities. Join us to change their lives.</p>
         </div>
@@ -354,7 +304,7 @@
       <!-- Project 7 -->
       <div class="col-md-4 mb-4">
         <div class="project-card">
-          <img src="/Assets/sewing.jpeg" alt="Sewing Training Program">
+          <img src="Assets/sewing.jpeg" alt="Sewing Training Program">
           <h5 class="text-warning">Sewing Training Program</h5>
           <p>Learn essential sewing skills, create beautiful garments, and ignite a passion for craftsmanship.</p>
         </div>
@@ -362,7 +312,7 @@
       <!-- Project 8 -->
       <div class="col-md-4 mb-4">
         <div class="project-card">
-          <img src="/Assets/drug.png" alt="Drug De-addiction Campaign">
+          <img src="Assets/drug.png" alt="Drug De-addiction Campaign">
           <h5 class="text-warning">Drug De-addiction Campaign</h5>
           <p>Empowering individuals to break free from addiction through dedicated support and rehabilitation services.</p>
         </div>
@@ -370,7 +320,7 @@
       <!-- Project 9 -->
       <div class="col-md-4 mb-4">
         <div class="project-card">
-          <img src="/Assets/pocso img.jpg" alt="POSH Act Awareness">
+          <img src="Assets/pocso img.jpg" alt="POSH Act Awareness">
           <h5 class="text-warning">POSH Act Awareness</h5>
           <p>Promoting safe workplaces and creating safe spaces through our POSH Act Awareness Campaign.</p>
         </div>
@@ -395,39 +345,9 @@
 
   <!--Footer Start-->
 
-  <footer class="mt-5 p-5 bg-body-tertiary">
-    <div class="row">
-      <div class="col-md-4">
-        <h4>GEETASHRYA SEVA SANSTHAN</h4>
-        <p>The primary aim of the founder of Geetashrya Seva Sansthan is to assist destitute orphaned children in their education, health, and overall development, as well as to provide financial support for the marriages of poor girls who either have no parents or come from economically weak families. This effort seeks to integrate this vulnerable segment of society into the mainstream.</p>
-      </div>
-      <div class="col-md-4">
-        <h4>Where We Work</h4>
-        <ul>
-          <li>Email: <a href="mailto:geetasryasrvasansthaan@gmail.com">geetasryasrvasansthaan@gmail.com</a></li>
-          <li>Phone: <a href="tel:+917388102141">+91 7388102141</a></li>
-          <li>Website: <a href="http://www.geetasryasevasansthaan.org/">www.geetasryasevasansthaan.org</a></li>
-          <li>Head Office:
-            <ul>
-              <li>25, Pausalaha</li>
-              <li>VILL-Paldev Majhgawa</li>
-              <li>District-Satna</li>
-              <li>Madhya Pradesh 485334</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <h3>Follow Us On</h3>
-        <ul class="social-media-list">
-          <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
-          <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i> YouTube</a></li>
-          <li><a href="https://wa.me/917388102141" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
-          <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+ <?php
+  include("footer.php");
+ ?>
 
   <!--Footer End-->
 
